@@ -8,8 +8,8 @@ module.exports = {
   entry: ["./get-script", "./app"],
   devServer: {
     headers: {
-      "content-security-policy":
-        "script-src-elem 'strict-dynamic' 'nonce-fYHDE2O+n1Za4lVOWtBxSg'; style-src-elem 'strict-dynamic' 'nonce-fYHDE2O+n1Za4lVOWtBxSg';"
+      "content-security-policy": "script-src-elem 'strict-dynamic' 'nonce-fYHDE2O+n1Za4lVOWtBxSg';"
+      // "script-src-elem 'nonce-fYHDE2O+n1Za4lVOWtBxSg'; style-src-elem 'strict-dynamic' 'nonce-fYHDE2O+n1Za4lVOWtBxSg';"
     }
   }
 };
